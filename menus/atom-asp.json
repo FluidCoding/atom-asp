@@ -1,0 +1,39 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "atom-asp",
+          "submenu": [
+            {
+               "label": "HTML to ASP",
+               "command": "atom-asp:htmlToAsp"
+            },
+            {
+              "label": "SQL to ASPStr",
+              "command": "atom-asp:sqlToStr"
+            }
+          ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-asp",
+          "submenu": [
+            {
+              "label": "HTML to ASP",
+              "command": "atom-asp:htmlToAsp"
+            },
+            {
+              "label": "SQL to ASPStr",
+              "command": "atom-asp:sqlToStr"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

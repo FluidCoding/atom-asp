@@ -1,0 +1,19 @@
+{
+  "name": "atom-asp",
+  "main": "./lib/atom-asp",
+  "version": "0.0.1",
+  "description": "Making ASP a modern...option, with day to day improvements.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-asp:htmlToAsp",
+    "atom-workspace": "atom-asp:sqlToStr"
+  },
+  "repository": "https://github.com/FluidCoding/atom-asp",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
