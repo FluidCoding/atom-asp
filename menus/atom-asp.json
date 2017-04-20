@@ -11,6 +11,10 @@
             {
               "label": "SQL to ASPStr",
               "command": "atom-asp:sqlToStr"
+            },
+            {
+              "label": "ASP Merge Lines",
+              "command": "atom-asp:aspMergeLines"
             }
           ]
       }
